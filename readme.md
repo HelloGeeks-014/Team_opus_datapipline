@@ -35,7 +35,7 @@ sigma-opus-pipeline/
     ├── orders_day4.csv
     └── orders_day5.csv
 ```
-> **💡 Tip:** Your CSV files must match the expected column structure. Refer to the table schemas in the **🔍 Ask Your Data** tab for the required fields.
+> **💡 Tip:** Delete the existing sample files in the `data/` folder and replace them with your own CSVs — AWS Glue automatically infers the schema, so no predefined structure is required. Alternatively, run `python generate_data.py` to generate random sample data in the correct format.
 
 ---
 
